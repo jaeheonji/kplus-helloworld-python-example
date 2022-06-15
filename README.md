@@ -4,7 +4,7 @@ This repository shows how to construct an [istio-helloworld](https://github.com/
 
 # Getting Started
 
-1. Clone this repo and install requirements.
+1. **Clone this repo and install requirements**
 
 ```bash
 git clone https://github.com/jaeheonji/kplus-helloworld-python-example.git
@@ -17,7 +17,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Generate kubernetes manifest.
+2. **Generate kubernetes manifest**
 
 ```bash
 python main.py
@@ -25,7 +25,7 @@ python main.py
 
 Then `helloworld.k8s.yaml` will be created in `dist` folder.
 
-3. (optional) Generate low-level constructs for istio CRD(Custom Resource Deifinition)
+3. **(optional) Generate low-level constructs for istio CRD(Custom Resource Deifinition)**
 
 To define an istio CRD in `cdk8s+`, you must first create an `imports` files. Although this repository already contains the generated `imports`, the following requirements are required to create a new one.
 
