@@ -1,0 +1,11 @@
+attrs==21.4.0
+cattrs==22.1.0
+cdk8s==2.3.26
+cdk8s-plus-24==2.0.0rc18
+constructs==10.1.38
+exceptiongroup==1.0.0rc8
+jsii==1.60.1
+publication==0.0.3
+python-dateutil==2.8.2
+six==1.16.0
+typing_extensions==4.2.0
